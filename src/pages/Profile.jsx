@@ -3,8 +3,8 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 const Profile = () => {
   const images = [
-    { url: "/assets/me_small_size.png", title: "Me" },
-    { url: "/assets/barcelona.jpg", title: "Barcelona" },
+    { url: "/portfolio_practice/assets/me_small_size.png", title: "Me" },
+    { url: "/portfolio_practice/assets/barcelona.jpg", title: "Barcelona" },
   ];
   const [hoveredIndex, setHoveredIndex] = useState(null);
   return (

@@ -2,12 +2,12 @@ import { useState } from "react";
 
 const Gallery = () => {
   const images = [
-    { url: "/assets/img1.jpg", title: "Project1" },
-    { url: "/assets/img2.jpg", title: "Project2" },
-    { url: "/assets/img3.jpg", title: "Project3" },
-    { url: "/assets/img4.jpg", title: "Project4" },
-    { url: "/assets/img5.jpg", title: "Project5" },
-    { url: "/assets/img6.jpg", title: "Project6" },
+    { url: "/portfolio_practice/assets/img1.jpg", title: "Project1" },
+    { url: "/portfolio_practice/assets/img2.jpg", title: "Project2" },
+    { url: "/portfolio_practice/assets/img3.jpg", title: "Project3" },
+    { url: "/portfolio_practice/assets/img4.jpg", title: "Project4" },
+    { url: "/portfolio_practice/assets/img5.jpg", title: "Project5" },
+    { url: "/portfolio_practice/assets/img6.jpg", title: "Project6" },
     // { url: "/src/assets/img7.jpg", title: "Project7" },
   ];
   const [hoveredIndex, setHoveredIndex] = useState(null);
