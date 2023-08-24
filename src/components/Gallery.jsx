@@ -8,7 +8,6 @@ const Gallery = () => {
     { url: "/portfolio_practice/assets/img4.jpg", title: "Project4" },
     { url: "/portfolio_practice/assets/img5.jpg", title: "Project5" },
     { url: "/portfolio_practice/assets/img6.jpg", title: "Project6" },
-    // { url: "/src/assets/img7.jpg", title: "Project7" },
   ];
   const [hoveredIndex, setHoveredIndex] = useState(null);
   return (
